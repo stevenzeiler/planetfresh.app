@@ -13,7 +13,7 @@ export function getRandomMenu() {
 
     s3.listObjects({
       Bucket: bucket,
-      Prefix: 'menus/'
+      Prefix: 'menus/Freeman'
     }, (err, resp) => {
 
       if (err) {
